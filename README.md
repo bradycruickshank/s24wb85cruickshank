@@ -1,1 +1,1 @@
-Assignment 10 server repsitory
+Assignment 10 server repository
