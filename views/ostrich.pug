@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Search Results Ostrich
+  - results = [{name:"Jerry", age:2, feather_count:546}, {name:"Susie", age:4, feather_count:668}, {name:"Tom", age:6, feather_count:800}]
+  div(class="container-fluid")
+    div(class="row")
+    each item in results
+      div(class="col-sm-2") Name: #{item["name"]} Age: #{item["age"]} Feather Count: #{item["feather_count"]}
+  

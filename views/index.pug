@@ -5,6 +5,7 @@ block content
   p Welcome to Brady's #{title} server
   button(type="button", class="btn, btn-primary" onclick="double()") I am a button
   div(id="double") Up the amount
+  a(href="ostrich") Ostrich Search
  
   script.
     value = 0
@@ -14,4 +15,6 @@ block content
       power *= 2
       document.getElementById("double").innerHTML = `Two to the power ${value} is ${power}`
     }
+  
+  
   
